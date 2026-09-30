@@ -1,0 +1,9 @@
+THIỆP CƯỚI HUY ĐẠT & KIM ANH — V12
+
+- Đã bỏ monogram "ĐA" bên trong seal mở thiệp; seal chỉ còn biểu tượng mũi tên.
+- Căn lại monogram ĐA lớn ở trang mở đầu để hai chữ chồng cân giữa khung.
+- Tăng cỡ chữ chính và dùng cỡ chữ responsive để phù hợp màn hình điện thoại mà hạn chế tràn chữ.
+- Giữ 2 font: Cormorant Garamond + Allura.
+- Giữ nhạc music.mp3 từ bản V11.
+- Không chèn video.
+- Monogram cuối trang cũng chỉ còn "ĐA", không có dấu &.

@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f7f0e8">
+<title>Đạt & Anh — Wedding Invitation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Allura&display=swap" rel="stylesheet">
+<style>
+:root{--ivory:#fbf7f0;--paper:#fffaf4;--ink:#4f5550;--sage:#899b86;--sage-dark:#52675d;--blush:#d8b4aa;--rose:#c9938b;--line:#e6d9cf;--white:#fffdfa}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-snap-type:y proximity}body{margin:0;background:var(--ivory);color:var(--ink);font-family:"Cormorant Garamond",serif;line-height:1.55}body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.28;background:radial-gradient(circle at 15% 10%,#fff 0 1px,transparent 2px),radial-gradient(circle at 80% 70%,#e7d9cf 0 1px,transparent 2px);background-size:90px 90px,120px 120px}.site{max-width:760px;margin:auto;position:relative;overflow:hidden;background:var(--ivory)}
+.nav{position:fixed;top:14px;left:50%;transform:translateX(-50%);width:min(700px,calc(100% - 28px));z-index:30;padding:11px 16px;border:1px solid rgba(255,255,255,.7);border-radius:999px;background:rgba(255,250,244,.74);backdrop-filter:blur(14px);display:flex;justify-content:center;gap:26px;font:12px "Allura",cursive;letter-spacing:.12em}.nav a{color:#6d746e;text-decoration:none}.nav a.active{color:#52675d}
+.hero{min-height:100svh;padding:76px 18px 34px;display:grid;place-items:center;position:relative;background:linear-gradient(180deg,#f9f2ea,#f4ece4)}.hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 48%;filter:saturate(.82) brightness(1.03)}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,249,241,.30),rgba(255,249,241,.58) 72%,rgba(255,249,241,.92))}.hero-card{position:relative;z-index:2;width:min(620px,94vw);padding:48px 24px 42px;text-align:center;background:linear-gradient(180deg,rgba(255,250,244,.70),rgba(255,250,244,.42));border:0;box-shadow:0 24px 70px rgba(80,62,50,.10);backdrop-filter:blur(5px)}.eyebrow{font:600 14px "Cormorant Garamond",serif;letter-spacing:.18em;color:#777e77;text-transform:uppercase}.monogram{margin:16px auto 8px;font:clamp(118px,15vw,142px)/.78 "Allura",cursive;color:var(--sage-dark);letter-spacing:0;text-shadow:0 1px rgba(255,255,255,.65);display:block;width:min(100%,360px);height:126px;position:relative}.monogram .initial{position:absolute;top:50%;left:50%;display:block;font-weight:400;line-height:.78}.monogram .initial-d{z-index:1;transform:translate(-62%,-53%)}.monogram .initial-a{z-index:2;transform:translate(-32%,-47%)}.hero-title{font:32px/1.2 "Allura",cursive;color:#59685f;margin:13px 0 14px;letter-spacing:.01em}.hero-date{font:600 15px "Cormorant Garamond",serif;letter-spacing:.22em;color:#8c7770}.hero-note{margin:24px auto 0;max-width:470px;font-size:21px;line-height:1.65;color:#626760}.orn{margin:18px auto 0;color:#b89689;font-size:14px;letter-spacing:7px}
+.section{padding:76px 22px;position:relative}.soft{background:#f6efe7}.paper{max-width:650px;margin:auto;text-align:center;padding:54px 28px;background:rgba(255,252,247,.72);border:1px solid var(--line);box-shadow:0 16px 45px rgba(75,60,48,.06)}.script{font:42px/1.18 "Allura",cursive;color:#5d6b62;letter-spacing:.01em}.lead{font-size:23px;line-height:1.75;max-width:570px;margin:24px auto 0}.quote{font-size:22px;line-height:1.8;max-width:590px;margin:22px auto}.divider{width:90px;height:1px;background:var(--blush);margin:25px auto;position:relative}.divider:after{content:"♡";position:absolute;left:50%;top:-12px;transform:translateX(-50%);background:var(--paper);padding:0 10px;color:var(--rose);font-size:16px}
+.date-section{text-align:center;padding-top:66px;padding-bottom:66px}.date-kicker{font:600 14px "Cormorant Garamond",serif;letter-spacing:.20em;color:#8a817a}.date-num{margin:12px 0 0;font:600 70px/.9 "Cormorant Garamond",serif;color:#56645c;letter-spacing:.05em}.date-num span{font-size:31px;vertical-align:middle;margin:0 10px;color:#b38c80}.date-year{margin-top:14px;font:600 14px "Cormorant Garamond",serif;letter-spacing:.22em;color:#8b7b73}.venue{margin:30px auto 0;font-size:21px;line-height:1.6}.venue strong{font-weight:600}
+.photo{width:100%;display:block;object-fit:cover}.hero-photo,.photo{user-select:none}.single-photo{max-width:650px;margin:0 auto;border-radius:2px;box-shadow:0 18px 45px rgba(73,59,48,.13)}.gallery{max-width:680px;margin:28px auto 0;display:grid;grid-template-columns:1.05fr .95fr;gap:13px}.gallery img{width:100%;height:100%;object-fit:cover;display:block;min-height:210px}.gallery .tall{grid-row:span 2;min-height:430px}.gallery .soft-shadow{box-shadow:0 10px 28px rgba(73,59,48,.1)}
+.story{text-align:center;max-width:620px;margin:auto}.story p{font-size:22px;line-height:1.8;margin:22px auto}.rsvp{max-width:570px;margin:0 auto;display:grid;gap:12px}.rsvp label{font:600 13px "Cormorant Garamond",serif;letter-spacing:.14em;color:#777e78;margin-top:6px}input,select,textarea{width:100%;padding:15px 16px;border:1px solid #ded2c9;border-radius:2px;background:#fffdf9;color:#4f5550;font:18px "Cormorant Garamond",serif;outline:none}input:focus,select:focus,textarea:focus{border-color:#bba195}textarea{min-height:105px;resize:vertical}.button{border:0;border-radius:999px;background:#6f8177;color:#fffaf4;padding:14px 24px;font:600 13px "Cormorant Garamond",serif;letter-spacing:.12em;cursor:pointer;margin-top:5px}.map{height:290px;margin:32px auto 0;max-width:650px;border:1px solid var(--line)}.map iframe{width:100%;height:100%;border:0}.small{text-align:center;font-size:19px;line-height:1.7}.music{position:fixed;right:18px;bottom:18px;z-index:40;width:46px;height:46px;border:1px solid rgba(255,255,255,.7);border-radius:50%;background:rgba(255,250,244,.88);color:#65766c;box-shadow:0 10px 25px rgba(60,45,35,.12);cursor:pointer}.music.playing{animation:musicPulse 1.8s ease-in-out infinite}@keyframes musicPulse{0%,100%{transform:scale(1);box-shadow:0 10px 25px rgba(60,45,35,.12)}50%{transform:scale(1.06);box-shadow:0 12px 30px rgba(60,45,35,.18)}}.footer{text-align:center;padding:35px 20px 62px;color:#7b817b;font-size:14px}.footer .script{font-size:37px}.backtop{display:inline-block;margin-top:18px;color:#7a817b;text-decoration:none;font:600 12px "Cormorant Garamond",serif;letter-spacing:.14em}
+
+/* Page opening + scroll reveal */
+body.locked{overflow:hidden}
+.nav{opacity:0;pointer-events:none;transition:opacity .5s ease}.nav.is-visible{opacity:1;pointer-events:auto}
+.hero{min-height:100svh;scroll-snap-align:start;transition:transform 1.05s cubic-bezier(.77,0,.18,1),opacity .75s ease;will-change:transform;cursor:pointer}
+.hero.opened{opacity:0;pointer-events:none}
+.hero-card{transition:transform .65s cubic-bezier(.22,1,.36,1),box-shadow .5s ease}.hero:hover .hero-card{transform:translateY(-3px);box-shadow:0 30px 80px rgba(80,62,50,.2)}
+.open-invite{position:relative;display:inline-flex;align-items:center;justify-content:center;width:102px;height:102px;margin-top:25px;border:0;border-radius:50%;background:radial-gradient(circle at 35% 28%,#9aa99f 0,#71857a 42%,#566b60 100%);color:#fffaf4;cursor:pointer;box-shadow:0 12px 28px rgba(67,79,70,.22),inset 0 1px 0 rgba(255,255,255,.35);transition:transform .28s ease,box-shadow .28s ease}
+.open-invite:before{content:"";position:absolute;inset:7px;border:1px solid rgba(255,250,244,.55);border-radius:50%}
+.open-invite:after{content:"";position:absolute;inset:-7px;border:1px solid rgba(137,155,134,.35);border-radius:50%;transform:rotate(6deg)}
+.open-invite:hover{transform:translateY(-3px) rotate(-1deg);box-shadow:0 18px 34px rgba(67,79,70,.28),inset 0 1px 0 rgba(255,255,255,.38)}
+.open-invite:active{transform:scale(.94)}
+.open-invite .seal-content{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;line-height:1}
+.open-invite .seal-arrow{margin-top:7px;font-size:13px;line-height:1;animation:floatArrow 1.7s ease-in-out infinite}
+@keyframes floatArrow{0%,100%{transform:translateY(0)}50%{transform:translateY(3px)}}
+.section,.date-section,.footer{opacity:0;transform:translateY(42px);transition:opacity .8s ease,transform .9s cubic-bezier(.22,1,.36,1)}
+.section.revealed,.date-section.revealed,.footer.revealed{opacity:1;transform:none}
+.hero-photo{transition:transform 1.2s ease}.hero:hover .hero-photo{transform:scale(1.015)}
+@media(max-width:360px){.hero{padding-left:10px;padding-right:10px}.hero-card{width:96vw;padding-left:14px;padding-right:14px}.monogram{font-size:108px;height:108px}.hero-title{font-size:28px}.hero-note{font-size:19px}.open-invite{width:94px;height:94px}.script{font-size:34px}.lead,.quote,.story p{font-size:19px}}
+
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero,.section,.date-section,.footer,.hero-card,.hero-photo{transition:none}.open-invite .seal-arrow{animation:none}}
+
+@media(max-width:520px){.hero{padding-top:72px}.hero-card{padding:43px 20px 36px}.monogram{font-size:108px;height:108px}.hero-title{font-size:28px;letter-spacing:.01em}.section{padding:58px 15px}.paper{padding:43px 19px}.script{font-size:39px}.lead,.quote,.story p{font-size:20px}.date-num{font-size:64px}.gallery{gap:8px}.gallery .tall{min-height:340px}.gallery img{min-height:165px}}
+</style>
+</head>
+<body>
+<div class="site">
+
+
+<section id="home" class="hero">
+  <img class="hero-photo" src="images/01.jpg" alt="Ảnh cưới của cô dâu và chú rể">
+  <div class="hero-card">
+    <div class="eyebrow">Save the date</div>
+    <div class="monogram" aria-label="ĐA"><span class="initial initial-d">Đ</span><span class="initial initial-a">A</span></div>
+    <div class="hero-title">Huy Đạt &amp; Kim Anh</div>
+    <div class="hero-date">28 · 11 · 2026</div>
+    <div class="orn">· · ♡ · ·</div>
+    <p class="hero-note">Một ngày thật đẹp để chúng mình cùng nhau viết tiếp câu chuyện yêu thương.</p>
+    <button class="open-invite" type="button" aria-label="Chạm để mở thiệp" onclick="openInvitation(event)"><span class="seal-content"><span class="seal-arrow">↓</span></span></button>
+  </div>
+</section>
+
+<section class="section">
+  <div class="paper">
+    <div class="script">Lời mời thân thương</div>
+    <div class="divider"></div>
+    <p class="lead">Gia đình trân trọng gửi lời mời đến những người thân thương, cùng tham dự ngày vui của <b>Huy Đạt &amp; Kim Anh</b>.</p>
+    <p class="quote">Sự hiện diện của bạn sẽ làm ngày đặc biệt này trở nên ấm áp và trọn vẹn hơn rất nhiều.</p>
+  </div>
+</section>
+
+<section id="date" class="section soft date-section">
+  <div class="date-kicker">THE WEDDING DAY</div>
+  <div class="date-num">28 <span>·</span> 11</div>
+  <div class="date-year">2026</div>
+  <div class="divider"></div>
+  <div class="venue"><strong>TRỐNG ĐỒNG PALACE</strong><br>586 Đ. Cách Mạng Tháng 8, Gia Sàng, Thái Nguyên</div>
+</section>
+
+<section class="section">
+  <img class="photo single-photo" src="images/04.jpg" alt="Khoảnh khắc cô dâu và chú rể bên biển">
+</section>
+
+<section id="moments" class="section soft">
+  <div class="story">
+    <div class="script">Những khoảnh khắc của chúng mình</div>
+    <div class="divider"></div>
+    <p>Giữa sắc biển dịu dàng và những đóa hoa mềm mại, chúng mình đã lưu lại những khoảnh khắc mà sau này nhìn lại vẫn thấy thật thương.</p>
+  </div>
+  <div class="gallery">
+    <img class="tall soft-shadow" src="images/03.jpg" alt="Cô dâu chú rể bên biển">
+    <img class="soft-shadow" src="images/07.jpg" alt="Cô dâu chú rể dưới nắng chiều">
+    <img class="soft-shadow" src="images/08.jpg" alt="Cô dâu chú rể cùng cánh hoa">
+  </div>
+</section>
+
+<section class="section">
+  <div class="gallery">
+    <img class="soft-shadow" src="images/06.jpg" alt="Chú rể bên biển">
+    <img class="soft-shadow" src="images/05.jpg" alt="Cô dâu chú rể đọc lời nguyện ước">
+    <img class="soft-shadow" src="images/10.jpg" alt="Cô dâu chú rể bên biển lúc hoàng hôn">
+    <img class="soft-shadow" src="images/09.jpg" alt="Khoảnh khắc cưới bên biển">
+  </div>
+</section>
+
+<section class="section soft">
+  <div class="paper">
+    <div class="script">Trân trọng kính mời</div>
+    <div class="divider"></div>
+    <p class="lead">Sự hiện diện của bạn là niềm vui và là lời chúc phúc quý giá dành cho chúng mình trong ngày trọng đại.</p>
+  </div>
+</section>
+
+<section class="section" id="rsvp">
+  <div class="paper">
+    <div class="script">Xác nhận tham dự</div>
+    <div class="divider"></div>
+    <form class="rsvp" onsubmit="sendRSVP(event)">
+      <label>HỌ VÀ TÊN</label><input id="name" required placeholder="Tên của bạn">
+      <label>BẠN SẼ THAM DỰ?</label><select id="attend" required><option value="">Chọn</option><option>Có, mình sẽ tham dự</option><option>Rất tiếc, mình không thể tham dự</option></select>
+      <label>SỐ NGƯỜI</label><input id="guests" type="number" min="1" max="20" value="1">
+      <label>LỜI CHÚC</label><textarea id="message" placeholder="Gửi lời chúc đến Huy Đạt & Kim Anh"></textarea>
+      <button class="button">GỬI LỜI CHÚC ♡</button>
+    </form>
+    <div class="map"><iframe loading="lazy" src="https://www.google.com/maps?q=Tr%E1%BB%91ng%20%C4%90%E1%BB%93ng%20Palace%20586%20%C4%90.%20C%C3%A1ch%20M%E1%BA%A1ng%20Th%C3%A1ng%208%20Gia%20S%C3%A0ng%20Th%C3%A1i%20Nguy%C3%AAn&output=embed"></iframe></div>
+  </div>
+</section>
+
+<footer class="footer"><div class="script">ĐA</div><div>Huy Đạt &amp; Kim Anh · 28.11.2026</div><a class="backtop" href="#home">↑ VỀ ĐẦU TRANG</a></footer>
+</div>
+<button class="music" id="musicButton" onclick="toggleMusic()" aria-label="Tắt nhạc" aria-pressed="true">♪</button>
+<audio id="audio" loop preload="auto"><source src="music.mp3" type="audio/mpeg"></audio>
+<script>
+const body=document.body;
+const hero=document.querySelector('.hero');
+const nav=document.querySelector('.nav');
+body.classList.add('locked');
+
+function openInvitation(e){
+  if(e) e.stopPropagation();
+  const a=document.getElementById('audio');
+  a.volume=0.62;
+  // play() phải được gọi trực tiếp trong thao tác chạm để iOS/Android cho phép phát tiếng.
+  const playPromise=a.play();
+  hero.classList.add('opened');
+  body.classList.remove('locked');
+  if(nav) nav.classList.add('is-visible');
+  if(playPromise && typeof playPromise.then==='function'){
+    playPromise.then(()=>updateMusicButton(true)).catch(()=>updateMusicButton(false));
+  }
+  const next=hero.nextElementSibling;
+  setTimeout(()=>{
+    hero.style.display='none';
+    if(next) next.scrollIntoView({behavior:'auto',block:'start'});
+  },360);
+}
+
+// Nhấn vào bất kỳ vùng nào của trang 1 để mở thiệp.
+hero.addEventListener('click',()=>openInvitation());
+
+// Hiệu ứng trượt/reveal khi kéo xuống từng section.
+const revealObserver=new IntersectionObserver((entries)=>{
+  entries.forEach(entry=>{
+    if(entry.isIntersecting) entry.target.classList.add('revealed');
+  });
+},{threshold:.14,rootMargin:'0px 0px -8% 0px'});
+document.querySelectorAll('.section,.date-section,.footer').forEach(el=>revealObserver.observe(el));
+
+function updateMusicButton(playing){
+  const b=document.getElementById('musicButton');
+  if(!b) return;
+  b.classList.toggle('playing',playing);
+  b.setAttribute('aria-pressed',String(playing));
+  b.setAttribute('aria-label',playing?'Tắt nhạc':'Bật nhạc');
+}
+function toggleMusic(){
+  const a=document.getElementById('audio');
+  if(a.paused){
+    a.play().then(()=>updateMusicButton(true)).catch(()=>updateMusicButton(false));
+  }else{
+    a.pause();
+    updateMusicButton(false);
+  }
+}
+audio.addEventListener('play',()=>updateMusicButton(true));
+audio.addEventListener('pause',()=>updateMusicButton(false));
+function sendRSVP(e){e.preventDefault();alert('Cảm ơn bạn đã gửi lời chúc cho Huy Đạt & Kim Anh ♡');e.target.reset()}
+</script>
+</body>
+</html>
